@@ -40,6 +40,7 @@
         <div class="content">
             <div class="title">About Page</div>
             <h1>Test Change Here</h1>
+            <h2>Hello</h2>
         </div>
     </div>
 </body>
