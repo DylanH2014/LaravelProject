@@ -7,7 +7,7 @@
 */
 
 Route::get('/', function () {
-	$people = ['Taylor', 'Matt', 'Jeffrey'];
+	$people = ['Taylor', 'Bob', 'Jeffrey'];
     return view('welcome', compact('people'));
 });
 
