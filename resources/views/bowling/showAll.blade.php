@@ -10,7 +10,7 @@
 			<a class="navbar-brand">BowlAway</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="/bowling">Home</a></li>
+				<li><a href="/bowling">Home</a></li>
 				<li><a href="/bowling/all/dylan">Dylan</a></li>
 				<li><a href="/bowling/all/justin">Justin</a></li> 
 				<li><a href="/bowling/all/gary">Gary</a></li> 
@@ -50,4 +50,17 @@
 
 
 
+@endsection
+
+
+@section('scripts')
+<script>
+	
+// $(document).ready(function() {
+// 	var url = window.location;
+// 	console.log(url);
+// 	// Will only work if string in href matches with location
+// 	$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+// });
+</script>
 @endsection
